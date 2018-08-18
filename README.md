@@ -25,5 +25,7 @@ $ ./config/install.bash
 ## Запуск
 
 ```bash
-$ ./config/run.bash
+$ ./config/run.bash --port <port>
 ```
+
+> По умолчанию разворачивается на порту 5000.
