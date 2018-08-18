@@ -69,7 +69,6 @@ class JobScheduler {
                     cronTime = `0 0 0 1 */${cronValue} *`;
                     break;
             }
-            console.log(cronSchedule);
             this.job.setTime(new cron_1.CronTime(cronTime));
             this.job.start();
             console.log(`[${new Date()}] Next time update: ${this.job.nextDates(1)}`);
