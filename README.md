@@ -29,7 +29,7 @@ $ curl -sL https://deb.nodesource.com/setup_9.x | bash -
 $ sudo apt-get install -y nodejs
 ```
 
-Инструкцию по установке npm можно найти на [официальном сайте](https://nodejs.org/en/download/package-manager/).
+Инструкцию по установке npm можно найти на [официальном сайте](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions).
 
 ## Запуск
 
