@@ -22,6 +22,13 @@ $ cd parallel-news
 $ ./config/install.bash
 ```
 
+Если разворачивается на чистой машине, то рекомендуется сперва убедиться, что установлен **sudo**, а далее установить **npm**. Сделать это можно, например, с помощью такой последовательности команд: 
+
+```bash
+$ curl -sL https://deb.nodesource.com/setup_9.x | bash -
+$ apt-get install -y nodejs
+```
+
 ## Запуск
 
 ```bash
