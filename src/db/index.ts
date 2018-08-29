@@ -10,7 +10,7 @@ export class DatabaseManager {
     const path = join(__dirname, '../../config/database.yml');
     const config = safeLoad(readFileSync(path, 'utf8'));
     this.pool = new Pool({
-      user: config.octo,
+      user: config.user,
       database: config.database,
       password: config.password,
       host: config.host,
