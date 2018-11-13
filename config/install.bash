@@ -13,6 +13,7 @@ sudo apt-get install npm
 npm install typescript
 npm install gulp -g
 npm install gulp-typescript -g
+npm install gulp-cli -g
 
 npm install express
 npm install debug

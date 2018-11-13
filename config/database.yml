@@ -1,5 +1,5 @@
-user: octo
-database: new_octoshell_development
+user: news_fetcher
+database: new_octoshell
 password: octopass
 host: localhost
 port: 5432

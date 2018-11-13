@@ -17,7 +17,7 @@ class DatabaseManager {
         const path = path_1.join(__dirname, '../../config/database.yml');
         const config = js_yaml_1.safeLoad(fs_1.readFileSync(path, 'utf8'));
         this.pool = new pg_1.Pool({
-            user: config.octo,
+            user: config.user,
             database: config.database,
             password: config.password,
             host: config.host,
