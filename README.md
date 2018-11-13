@@ -1,6 +1,6 @@
 # Импорт новостей Top50
 
-Аггрегатор новостей проекта Top50. Является утилитой в поддержку RoR приложение top52.
+Агрегатор новостей проекта Top50. Является утилитой в поддержку RoR приложение top52 (https://github.com/artzlt/top52/).
 
 Основные возможности:
 
@@ -17,8 +17,8 @@
 ## Установка
 
 ```bash
-$ git clone https://github.com/mozharovsky/parallels-news.git ./
-$ cd parallel-news
+$ git clone https://github.com/brcke/top52-news-fetcher.git ./
+$ cd top52-news-fetcher
 $ ./config/install.bash
 ```
 
